@@ -1,0 +1,69 @@
+body {
+    background-image: url(bgr.jpg); /* Background image */
+    background-size: 100% 150%; /* Adjust background img size to fit webpage */
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Format login box */
+.login-box {
+    background: rgba(0,0,0,0.5);
+    padding: 20px;
+    width: 300px;
+    margin: 100px auto;
+    border-radius: 5px;
+    
+}
+
+/* Format LOGIN INFO title */
+#login-title {
+letter-spacing: 3px;
+text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+}
+
+
+h1 {
+    text-align: left;
+    margin-bottom: 20px;
+    color: rgba(221, 240, 11, 0.889);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Format form label (username + password) before input */
+form label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: auto;
+    font-weight: bolder;
+    padding: 5px 5px;
+    margin: auto;
+   
+
+}
+
+/* format all forms input */
+form input {
+    width: 50%;
+    padding: 6px;
+    margin: 5px 5px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+/*Format submit button */
+form input[type="submit"] {
+    background-color: RGBA(1,1,1,0.7);
+    font-weight: bold;
+    cursor: pointer;
+    color: rgb(248, 104, 8);
+
+}
+
+/*Submit button when had a pointer over*/
+form input[type="submit"]:hover {
+    background-color: rgba(221, 240, 11, 0.889);
+    color:crimson;
+    transition: 0.75s;
+    
+}
